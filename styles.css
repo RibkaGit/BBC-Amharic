@@ -18,34 +18,56 @@ body {
 
 
 .navbar {
-    border-bottom: 1px solid var(--bbc-border);
-    padding: 0.5rem 0;
-    background-color: #fff !important;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0;
 }
 
-.navbar-brand img {
-    max-height: 40px;
-    
+.bbc-logo {
+    display: flex;
+    align-items: center;
+    height: 40px;
 }
 
-.nav-link {
-    color: var(--bbc-gray) !important;
-    font-weight: 500;
-    padding: 0.5rem 0.75rem !important;
-    font-size: 1rem;
-    text-decoration: none;
-    white-space: nowrap;
+.bbc-text {
+    font-family: "BBC Reith Sans", "Helvetica", Arial, sans-serif;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
 }
 
-.nav-link.active {
-    color: var(--bbc-red) !important;
-    border-bottom: 2px solid var(--bbc-red);
+.news-text {
+    font-family: "BBC Reith Sans", "Helvetica", Arial, sans-serif;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
 }
 
-.nav-link:hover {
-    color: var(--bbc-red) !important;
+.navbar-nav {
+    margin-top: 10px;
 }
 
+.navbar-nav .nav-link {
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 .hero-section {
     margin-bottom: 2rem;
