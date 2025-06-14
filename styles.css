@@ -25,14 +25,16 @@ body {
 .bbc-logo {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 32px;
 }
 
 .bbc-text {
     font-family: "BBC Reith Sans", "Helvetica", Arial, sans-serif;
-    line-height: 40px;
-    height: 40px;
+    line-height: 24px;
+    height: 24px;
     display: inline-block;
+    text-align: center;
+    min-width: 20px;
 }
 
 .news-text {
