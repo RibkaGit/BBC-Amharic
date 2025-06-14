@@ -38,15 +38,23 @@ body {
     margin: 0;
 }
 
+.bbc-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
 .navbar-nav {
     flex-wrap: wrap;
     width: 100%;
-    justify-content: flex-start;
     margin: 0;
+    gap: 10px;
+    padding-left: 0;
 }
 
 .nav-item {
     margin: 0;
+    padding: 0;
 }
 
 .nav-link {
