@@ -18,49 +18,48 @@ body {
 
 
 .navbar {
-    border-bottom: 1px solid #e6e6e6;
     padding: 0;
 }
 
-.bbc-logo {
-    display: flex;
-    align-items: center;
-    height: 32px;
+.logo-section {
+    width: 100%;
 }
 
-.bbc-text {
-    font-family: "BBC Reith Sans", "Helvetica", Arial, sans-serif;
-    line-height: 24px;
-    height: 24px;
-    display: inline-block;
-    text-align: center;
-    min-width: 20px;
-}
-
-.news-text {
-    font-family: "BBC Reith Sans", "Helvetica", Arial, sans-serif;
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
+.nav-section {
+    width: 100%;
+    padding: 10px 0;
 }
 
 .navbar-nav {
-    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
 }
 
-.navbar-nav .nav-link {
-    color: white;
-    padding: 8px 15px;
-    font-size: 14px;
+.nav-item {
+    margin: 0;
 }
 
-.navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.8);
+.nav-link {
+    color: black !important;
+    padding: 5px 10px;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
-.navbar-nav .nav-link.active {
-    color: white;
+.nav-link:hover {
+    color: #BB1919 !important;
+}
+
+.nav-link.active {
     font-weight: bold;
+    border-bottom: 2px solid #BB1919;
+    color: #BB1919 !important;
+}
+
+.nav-link i {
+    color: black !important;
 }
 
 .navbar-toggler {
