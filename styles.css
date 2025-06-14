@@ -14,20 +14,28 @@ body {
     color: var(--bbc-gray);
     background-color: #fff;
     padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
-
 
 .navbar {
     padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
 .logo-section {
     width: 100%;
+    margin: 0;
 }
 
 .nav-section {
     width: 100%;
-    padding: 10px 0;
+    margin: 0;
 }
 
 .navbar-nav {
@@ -269,4 +277,13 @@ footer a:hover {
         margin-bottom: 1.5rem;
     }
 }
+
+.header-separator {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 2px solid #e6e6e6;
+    width: 100%;
+}
+    
     
